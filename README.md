@@ -20,9 +20,8 @@ This code sample is to show you how to use the new Neural Network Inference (NNI
  <img width="890" alt="image" src="https://user-images.githubusercontent.com/46505951/162548380-b6d5c3ad-0dc1-4982-b99d-2b0327b2c2a4.png">
 - Once the project is loaded click play to see the project work!
 
-### Generate the solution file to open in Visual Studio.
-- 
-- 
+### Open the solution in Visual Studio.
+- Browse to the location that you cloned the project
 - Open the `FPStyleTransfer.sln` file
 - Hit F5 to run the project
 - Click play to see the project work!
