@@ -16,14 +16,14 @@ This code sample is to show you how to use the new Neural Network Inference (NNI
 # How to run this code
 
 ## Run from Epic Game Launcher
-- Open the Epic Game Launcher
-- Launch Unreal 5
+- Open the Epic Game Launcher and launch Unreal 5
+<img width="985" alt="image" src="https://user-images.githubusercontent.com/46505951/162548169-28a64ea5-3da0-4d06-a443-8083d56da4da.png">
 - Browse to the location that you cloned the project
-- Select the `FPStyleTransfer.uproject` file
-    - This will load the same projct
+- Select the `FPStyleTransfer.uproject` file. This will load the same project.
+ <img width="890" alt="image" src="https://user-images.githubusercontent.com/46505951/162548380-b6d5c3ad-0dc1-4982-b99d-2b0327b2c2a4.png">
 - Once the project is loaded click play to see the project work!
 
-## Run from Visual Studio
+- Open the solution in Visual Studio to view the code.
 - Navigate to the location that you cloned the project
 - Open the `FPStyleTransfer.sln` file
 - Hit f5 to run the project
