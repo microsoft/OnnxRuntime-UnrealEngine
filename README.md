@@ -15,7 +15,12 @@ After:
 
 # Prerequisites
 - [Unreal 5](https://www.unrealengine.com/unreal-engine-5)
+    - Check to make sure you have the [minimum hardware and software requirements](https://docs.unrealengine.com/5.0/en-US/hardware-and-software-specifications-for-unreal-engine/) to run UE. 
+    - Installing UE5 can take hours depending on your network and hardware. Please see the UE docs for information on [how to install UE5](https://docs.unrealengine.com/5.0/installing-unreal-engine/)
+
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+    - Visual Studio 2019 v16.11.5 or later (recommended)
+    - Visual Studio 2022
 
 # How to run this project
 - Open the Epic Game Launcher and launch Unreal 5
