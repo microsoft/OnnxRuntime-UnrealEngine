@@ -1,4 +1,4 @@
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/46505951/159554721-a8db2b64-ee6e-416f-8008-aa08c077b177.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/46505951/159554721-a8db2b64-ee6e-416f-8008-aa08c077b177.png">
 
 This code sample is to show you how to use the new Neural Network Inference (NNI) Plugin in Unreal Engine 5 which implements [ONNX Runtime](https://onnxruntime.ai/) to allow you to add ML Models in your projects. ONNX Runtime is a library to optimize and accelerate machine learning inferencing.
 
