@@ -50,6 +50,20 @@ After:
 
 # How to select a different model
 
+There are 5 differnet models included from the ONNX Model Zoo. You can find them under the Content > Models folder in the UE Content Browser. To add your own models, drag and drop them into the Models folder in the Content Browser.
+
+<img width="1270" alt="image" src="https://user-images.githubusercontent.com/46505951/163625334-0cbd8360-88b3-4b8d-91e3-67af120aabeb.png">
+
+To select one of the other preloaded models or one that you added yourself.
+- Select the `StyleTransferConfig` blueprint from the `Outliner`
+- In the `Details` under the `Default` section find the `Neural Network` property and select the dropdown. You will see a list of models avavilable.
+
+<img width="1265" alt="image" src="https://user-images.githubusercontent.com/46505951/163626096-9500b5d1-3862-4c33-a545-87e09f4157db.png">
+
+- Select the model you would like to apply from the dropdown, and then click play to see the new style applied.
+
+<img width="1277" alt="image" src="https://user-images.githubusercontent.com/46505951/163626560-0ba69e90-0f98-40ea-9339-d017e3056b80.png">
+
 
 
 # Resources
