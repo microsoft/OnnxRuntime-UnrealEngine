@@ -48,6 +48,10 @@ After:
 <img width="1278" alt="image" src="https://user-images.githubusercontent.com/46505951/163624882-bcff90cf-b2d6-424f-90eb-f1127f82d4da.png">
 
 
+# How to select a different model
+
+
+
 # Resources
 
 Grab open source models to add to your project:
