@@ -22,6 +22,8 @@ After:
     - Visual Studio 2019 v16.11.5 or later (recommended)
     - Visual Studio 2022
 
+- This was built on a Windows machine and has not been tested for Mac. Unreal Engine and Visual Studio 2019 are support on Mac however this instrucational does not cover that development path.
+
 # How to run this project
 - Open the Epic Game Launcher and launch Unreal 5
 <img width="985" alt="image" src="https://user-images.githubusercontent.com/46505951/162548169-28a64ea5-3da0-4d06-a443-8083d56da4da.png">
