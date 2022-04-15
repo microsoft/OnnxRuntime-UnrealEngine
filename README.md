@@ -72,7 +72,7 @@ Grab open source models to add to your project:
 - [ONNX Model Zoo](https://github.com/onnx/models)
 - [Huggingface Models](https://huggingface.co/models)
 
-Connect with ORT on Social!
+Connect with ONNX Runtime (ORT) on Social!
 
 - [Twitter](https://twitter.com/onnxruntime)
 - [YouTube](https://www.youtube.com/onnxruntime)
