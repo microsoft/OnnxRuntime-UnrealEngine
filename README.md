@@ -32,6 +32,9 @@ After:
  
 - Once the project is loaded click play to see the project work!
 
+<img width="1271" alt="image" src="https://user-images.githubusercontent.com/46505951/163624383-b848e76c-9c7f-4e1c-b102-5d1bf1f93e75.png">
+
+
 ### Open the solution in Visual Studio.
 - Browse to the location that you cloned the project.
 - Open the `FPStyleTransfer.sln` file.
