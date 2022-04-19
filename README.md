@@ -7,10 +7,10 @@ This code sample is to show you how to use the new Neural Network Inference (NNI
 We are using open source models from the ONNX model zoo to apply a style transform to the scene during game play. Check out the before and after pictures below to see how one of the models is able to stylize the scene.
 
 Before:
-<img width="991" alt="image" src="https://user-images.githubusercontent.com/46505951/162550184-0ed88615-2dae-4b9f-a429-06ce668169f5.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/46505951/162550184-0ed88615-2dae-4b9f-a429-06ce668169f5.png">
 
 After:
-<img width="997" alt="image" src="https://user-images.githubusercontent.com/46505951/162550233-018c0959-febd-4909-bc2e-0ffb8dd6368f.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/46505951/162550233-018c0959-febd-4909-bc2e-0ffb8dd6368f.png">
 
 
 # Prerequisites
@@ -20,6 +20,8 @@ After:
 
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
     - Visual Studio 2019 v16.11.5 or later (recommended)
+    - Visual Studio 2022 
+        - Include [.Net Core 3.1](https://dotnet.microsoft.com/download/dotnet/3.1/runtime?cid=getdotnetcore)
 
 - This was built on a Windows machine and has not been tested for Mac. Unreal Engine and Visual Studio 2019 are supported on Mac however this instrucational does not cover that development path.
 - The initial version of the NNI plugin supports CPU inference on PC (Windows/Linux/Mac) and Consoles (PS5/Xbox Series X). At the moment, GPU evaluation is only supported for Windows DirectX 12.
@@ -33,40 +35,43 @@ After:
 - Browse to the location that you cloned the project.
 - Select the `FPStyleTransfer.uproject` file and click open. This will load the same project.
  <img width="890" alt="image" src="https://user-images.githubusercontent.com/46505951/162548380-b6d5c3ad-0dc1-4982-b99d-2b0327b2c2a4.png">
+ NOTE: If you receieve the below message click `Fix Now` and it will recompile the project.
  
+ <img width="500" alt="image" src="https://user-images.githubusercontent.com/46505951/164088506-35bb01f3-8ea8-4f05-a50d-7bfdc95a54d4.png">
+
 - Once the project is loaded click play to see the project work!
 
-<img width="1271" alt="image" src="https://user-images.githubusercontent.com/46505951/163624383-b848e76c-9c7f-4e1c-b102-5d1bf1f93e75.png">
-<img width="1278" alt="image" src="https://user-images.githubusercontent.com/46505951/163624882-bcff90cf-b2d6-424f-90eb-f1127f82d4da.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/46505951/163624383-b848e76c-9c7f-4e1c-b102-5d1bf1f93e75.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/46505951/163624882-bcff90cf-b2d6-424f-90eb-f1127f82d4da.png">
 
 
 
 ### Option 2: Open and run in Visual Studio.
 - Browse to the location that you cloned the project.
 - Open the `FPStyleTransfer.sln` file.
-<img width="1274" alt="image" src="https://user-images.githubusercontent.com/46505951/163624778-3ae5479a-b9d7-42eb-9514-9f6a6c883083.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/46505951/163624778-3ae5479a-b9d7-42eb-9514-9f6a6c883083.png">
 
 - Hit F5 to run the project.
 - Click play to see the project work!
-<img width="1271" alt="image" src="https://user-images.githubusercontent.com/46505951/163624383-b848e76c-9c7f-4e1c-b102-5d1bf1f93e75.png">
-<img width="1278" alt="image" src="https://user-images.githubusercontent.com/46505951/163624882-bcff90cf-b2d6-424f-90eb-f1127f82d4da.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/46505951/163624383-b848e76c-9c7f-4e1c-b102-5d1bf1f93e75.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/46505951/163624882-bcff90cf-b2d6-424f-90eb-f1127f82d4da.png">
 
 
 # How to select a different model
 
 There are 5 differnet models included from the ONNX Model Zoo. You can find them under the Content > Models folder in the UE Content Browser. To add your own models, drag and drop them into the Models folder in the Content Browser.
 
-<img width="1270" alt="image" src="https://user-images.githubusercontent.com/46505951/163625334-0cbd8360-88b3-4b8d-91e3-67af120aabeb.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/46505951/163625334-0cbd8360-88b3-4b8d-91e3-67af120aabeb.png">
 
 To select one of the other preloaded models or one that you added yourself.
 - Select the `StyleTransferConfig` blueprint from the `Outliner`
 - In the `Details` under the `Default` section find the `Neural Network` property and select the dropdown. You will see a list of models available.
 
-<img width="1265" alt="image" src="https://user-images.githubusercontent.com/46505951/163626096-9500b5d1-3862-4c33-a545-87e09f4157db.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/46505951/163626096-9500b5d1-3862-4c33-a545-87e09f4157db.png">
 
 - Select the model you would like to apply from the dropdown, and then click play to see the new style applied.
 
-<img width="1277" alt="image" src="https://user-images.githubusercontent.com/46505951/163626560-0ba69e90-0f98-40ea-9339-d017e3056b80.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/46505951/163626560-0ba69e90-0f98-40ea-9339-d017e3056b80.png">
 
 
 
