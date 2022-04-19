@@ -35,7 +35,7 @@ After:
 - Browse to the location that you cloned the project.
 - Select the `FPStyleTransfer.uproject` file and click open. This will load the same project.
  <img width="890" alt="image" src="https://user-images.githubusercontent.com/46505951/162548380-b6d5c3ad-0dc1-4982-b99d-2b0327b2c2a4.png">
- NOTE: If you receieve the below message click `Fix Now` and it will recompile the project.
+ NOTE: If you receieve the below message click Fix Now and it will recompile the project.
  
  <img width="500" alt="image" src="https://user-images.githubusercontent.com/46505951/164088506-35bb01f3-8ea8-4f05-a50d-7bfdc95a54d4.png">
 
