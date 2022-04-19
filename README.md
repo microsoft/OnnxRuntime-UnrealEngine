@@ -20,7 +20,6 @@ After:
 
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
     - Visual Studio 2019 v16.11.5 or later (recommended)
-    - Visual Studio 2022
 
 - This was built on a Windows machine and has not been tested for Mac. Unreal Engine and Visual Studio 2019 are support on Mac however this instrucational does not cover that development path.
 - The initial version of the NNI plugin supports CPU inference on PC (Windows/Linux/Mac) and Consoles (PS5/Xbox Series X). At the moment, GPU evaluation is only supported for Windows DirectX 12.
