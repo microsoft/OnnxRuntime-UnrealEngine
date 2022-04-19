@@ -25,6 +25,8 @@ After:
 - The initial version of the NNI plugin supports CPU inference on PC (Windows/Linux/Mac) and Consoles (PS5/Xbox Series X). At the moment, GPU evaluation is only supported for Windows DirectX 12.
 
 # How to run this project
+
+### Options 1: Run with Epic Games Launcher
 - Open the Epic Game Launcher and launch Unreal 5
 <img width="985" alt="image" src="https://user-images.githubusercontent.com/46505951/162548169-28a64ea5-3da0-4d06-a443-8083d56da4da.png">
 
@@ -39,7 +41,7 @@ After:
 
 
 
-### Open the solution in Visual Studio.
+### Option 2: Open and run in Visual Studio.
 - Browse to the location that you cloned the project.
 - Open the `FPStyleTransfer.sln` file.
 <img width="1274" alt="image" src="https://user-images.githubusercontent.com/46505951/163624778-3ae5479a-b9d7-42eb-9514-9f6a6c883083.png">
