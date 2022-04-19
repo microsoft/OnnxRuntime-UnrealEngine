@@ -59,7 +59,7 @@ There are 5 differnet models included from the ONNX Model Zoo. You can find them
 
 To select one of the other preloaded models or one that you added yourself.
 - Select the `StyleTransferConfig` blueprint from the `Outliner`
-- In the `Details` under the `Default` section find the `Neural Network` property and select the dropdown. You will see a list of models avavilable.
+- In the `Details` under the `Default` section find the `Neural Network` property and select the dropdown. You will see a list of models available.
 
 <img width="1265" alt="image" src="https://user-images.githubusercontent.com/46505951/163626096-9500b5d1-3862-4c33-a545-87e09f4157db.png">
 
