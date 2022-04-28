@@ -1,6 +1,6 @@
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/46505951/159554721-a8db2b64-ee6e-416f-8008-aa08c077b177.png">
 
-This code sample is to show you how to use the new Neural Network Inference (NNI) Plugin in Unreal Engine 5 which implements [ONNX Runtime](https://onnxruntime.ai/) to allow you to add ML Models in your projects. ONNX Runtime is a library to optimize and accelerate machine learning inferencing.
+This code sample is to show you how to use the new Neural Network Inference (NNI) Plugin in Unreal Engine 5 which implements [ONNX Runtime](https://onnxruntime.ai/) to allow you to add Machine Learning (ML) Models in your projects. ONNX Runtime is a library to optimize and accelerate machine learning inferencing.
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/46505951/159556124-9e714170-c4c1-40e2-ac85-20e214912eb0.png">
 
@@ -12,6 +12,8 @@ Before:
 After:
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/46505951/162550233-018c0959-febd-4909-bc2e-0ffb8dd6368f.png">
 
+## Statement of Purpose
+This repository aims to grow the understanding of using ML models through the NNI Plugin in Unreal Engine 5 by providing an example of implementation and references to support the [Microsoft Build conference in 2022](https://mybuild.microsoft.com/). It is not intended to be a released product. Therefore, this repository is not for discussing ONNX Runtime, the NNI plugin or requesting new features.
 
 # Prerequisites
 - [Unreal 5](https://www.unrealengine.com/unreal-engine-5)
