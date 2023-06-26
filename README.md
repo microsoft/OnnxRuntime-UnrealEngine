@@ -27,6 +27,7 @@ This repository aims to grow the understanding of using ML models through the NN
 
 - Windows
 - The initial version of the NNI plugin supports CPU inference on PC (Windows/Linux/Mac) and Consoles (PS5/Xbox Series X). At the moment, GPU evaluation is only supported for Windows DirectX 12.
+- This project will only work up to version 5.2 of Unreal.  [Check out these docs for how to use the updated NNE plugin](https://dev.epicgames.com/community/learning/courses/e7w/unreal-engine-neural-network-engine-nne/nl83/unreal-engine-nne-overview)
 
 # How to run this project
 
